@@ -23,7 +23,7 @@ export default function App() {
             <h1 className="text-5xl font-bold text-white">Prompt Generator</h1>
           </div>
           <p className="text-white/90 text-lg">
-            Create perfect prompts for any purpose with our AI-powered generator
+          Create spot-on prompts effortlessly and get the best results from your LLMs with our AI-powered generator.
           </p>
         </div>
 

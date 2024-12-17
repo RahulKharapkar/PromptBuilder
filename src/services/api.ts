@@ -17,8 +17,8 @@ export async function generatePromptRequest(formData: PromptForm): Promise<strin
         },
         {
           role: 'user',
-          content: `Generate a ${formData.length.toLowerCase()} prompt about ${formData.topic} 
-                   with the purpose of ${formData.purpose} using a ${formData.tone.toLowerCase()} tone.`
+          content: `You are a highly skilled prompt engineer tasked with creating an optimized prompt for an AI language model to deliver highly efficient and accurate output.
+Generate a concise and effective prompt focusing on the topic '${formData.topic}' with the purpose of '${formData.purpose}'. The prompt should be tailored to a '${formData.tone.toLowerCase()}' tone and should be ${formData.length.toLowerCase()} in length.`
         }
       ]
     })

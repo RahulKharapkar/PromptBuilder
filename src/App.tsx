@@ -1,5 +1,4 @@
-import React from 'react';
-import { Sparkles, Wand2 } from 'lucide-react';
+import React from 'react';import { Sparkles, Wand2 } from 'lucide-react';
 import { PromptForm } from './components/PromptForm';
 import { PromptOutput } from './components/PromptOutput';
 import { usePromptGenerator } from './hooks/usePromptGenerator';

@@ -133,7 +133,7 @@ export function PromptForm({ onSubmit, isLoading }: Props) {
                  transition-all duration-200 
                  flex items-center justify-center gap-3"
       >
-        <Wand2 className={`w-6 h-6 ${isLoading ? 'animate-spin' : 'animate-float'}`} />
+        <Wand2 className={`w-6 h-6 `} />
         <span className="text-lg font-medium">
           {isLoading ? 'Generating...' : 'Generate Prompt'}
         </span>
